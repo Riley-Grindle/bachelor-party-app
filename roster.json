@@ -1,0 +1,30 @@
+{
+  "draft": {
+    "availablePlayers": {
+      "Chris": true,
+      "Drew": true,
+      "Evan": true,
+      "Jake": true,
+      "Josh": true,
+      "Kyle": true,
+      "Matt": true,
+      "Nick": true,
+      "Riley": true,
+      "Ryan": true,
+      "Tyler": true,
+      "Zach": true
+    },
+    "teams": {
+      "TeamA": [],
+      "TeamB": []
+    },
+    "currentCaptain": "TeamA",
+    "roster": [
+      "Riley",
+      "Chris",
+      "Evan",
+      "Tyler",
+      "Drew"
+    ]
+  }
+}
