@@ -9,32 +9,48 @@ import Login from './components/Login'
 import { auth } from './firebase'
 import { onAuthStateChanged } from 'firebase/auth'
 
+export default function App() {
+  const [route, setRoute] = useState(window.location.hash.replace('#', '') 
+|| 'home')
+  const [user, setUser] = useState(null)
 
-export default function App(){
-const [route, setRoute] = 
-useState(window.location.hash.replace('#','')||'home')
-const [user, setUser] = useState(null)
-useEffect(()=>{
-const fn = ()=> setRoute(window.location.hash.replace('#','')||'home')
-window.addEventListener('hashchange',fn)
-const unsub = onAuthStateChanged(auth,u=>setUser(u))
-return ()=>{window.removeEventListener('hashchange',fn); unsub()}
-},[])
+  useEffect(() => {
+    const fn = () => setRoute(window.location.hash.replace('#', '') || 
+'home')
+    window.addEventListener('hashchange', fn)
+    const unsub = onAuthStateChanged(auth, u => setUser(u))
+    return () => {
+      window.removeEventListener('hashchange', fn)
+      unsub()
+    }
+  }, [])
 
+  return (
+    <div className="min-h-screen flex flex-col bg-gradient-to-br 
+from-slate-900 via-green-900 to-slate-900">
+      <Navbar route={route} user={user} />
+      
+      {/* Main content - no extra padding needed since each component 
+handles its own */}
+      <main className="flex-1">
+        {route === 'home' && <Landing />}
+        {route === 'roster' && <Roster />}
+        {route === 'resort' && <Resort />}
+        {route === 'itinerary' && <Itinerary />}
+        {route === 'draft' && <Draft />}
+        {route === 'login' && <Login />}
+      </main>
 
-return (
-<div className="min-h-screen flex flex-col text-white">
-<Navbar route={route} user={user} />
-<main className="flex-1">
-{route==='home' && <Landing />}
-{route==='roster' && <Roster />}
-{route==='resort' && <Resort />}
-{route==='itinerary' && <Itinerary />}
-{route==='draft' && <Draft />}
-{route==='login' && <Login />}
-</main>
-<footer className="p-4 text-center text-sm text-gray-400">ESPN golf themed 
-— customize colors in tailwind.config.cjs</footer>
-</div>
-)
+      {/* Footer */}
+      <footer className="bg-black/90 border-t border-green-800/30 py-8 
+mt-auto">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <p className="text-gray-400 text-sm">
+            Bachelor Cup 2026 • A celebration of friendship, competition, 
+and unforgettable moments
+          </p>
+        </div>
+      </footer>
+    </div>
+  )
 }

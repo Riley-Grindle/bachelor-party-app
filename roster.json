@@ -18,13 +18,6 @@
       "TeamA": [],
       "TeamB": []
     },
-    "currentCaptain": "TeamA",
-    "roster": [
-      "Riley",
-      "Chris",
-      "Evan",
-      "Tyler",
-      "Drew"
-    ]
+    "currentCaptain": "TeamA"
   }
 }
