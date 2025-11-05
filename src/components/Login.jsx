@@ -39,7 +39,7 @@ border-gray-600 rounded px-3 py-2" required />
 </form>
 {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
 <button onClick={handleLogout} className="mt-4 text-sm underline 
-text-gray-400">Logout</button>
+text-gray-600">Logout</button>
 </div>
 )
 }

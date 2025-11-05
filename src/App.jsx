@@ -26,8 +26,7 @@ export default function App() {
   }, [])
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br 
-from-slate-900 via-green-900 to-slate-900">
+    <div className="min-h-screen flex flex-col">
       <Navbar route={route} user={user} />
       
       {/* Main content - no extra padding needed since each component 

@@ -3,22 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --accent: #0b6b3a;
-  --yellow-primary: #eab308;
-  --green-primary: #15803d;
+  /* Main Theme Colors - Red, White, Blue & Gold */
+  --color-primary: 251 191 36;        /* Gold RGB */
+  --color-secondary: 59 130 246;      /* Blue RGB */
+  --color-accent: 239 68 68;          /* Red RGB */
+  
+  /* Legacy variable support - DO NOT USE THESE, use Tailwind classes instead */
+  --accent: rgb(239 68 68);           /* Red */
+  --yellow-primary: rgb(251 191 36);  /* Gold */
+  --green-primary: rgb(59 130 246);   /* Blue */
 }
 
 body {
-  background-color: #05080b;
+  background-color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
-'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Video background styling */
 .video-bg {
   object-fit: cover;
   width: 100%;
@@ -29,37 +33,33 @@ body {
   z-index: -1;
 }
 
-/* Glass morphism effect */
 .glass {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #f1f5f9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--green-primary);
+  background: rgb(59 130 246);  /* Blue */
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--yellow-primary);
+  background: rgb(251 191 36);  /* Gold */
 }
 
-/* Animation utilities */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -75,18 +75,16 @@ html {
   animation: fadeIn 0.6s ease-out;
 }
 
-/* Hover effects for cards */
 .card-hover {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgba(234, 179, 8, 0.1),
-              0 10px 10px -5px rgba(234, 179, 8, 0.04);
+  box-shadow: 0 20px 25px -5px rgba(251, 191, 36, 0.1),
+              0 10px 10px -5px rgba(251, 191, 36, 0.04);
 }
 
-/* Loading spinner */
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -97,22 +95,19 @@ html {
   animation: spin 1s linear infinite;
 }
 
-/* Gradient text */
 .gradient-text {
-  background: linear-gradient(to right, #eab308, #15803d);
+  background: linear-gradient(to right, rgb(251 191 36), rgb(59 130 246));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Focus styles for accessibility */
 button:focus-visible,
 a:focus-visible {
-  outline: 2px solid var(--yellow-primary);
+  outline: 2px solid rgb(251 191 36);  /* Gold */
   outline-offset: 2px;
 }
 
-/* Image loading placeholder */
 img[src=""],
 img:not([src]) {
   background: linear-gradient(

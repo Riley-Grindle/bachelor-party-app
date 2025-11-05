@@ -1,18 +1,19 @@
 {
   "draft": {
     "availablePlayers": {
-      "Chris": true,
-      "Drew": true,
-      "Evan": true,
-      "Jake": true,
-      "Josh": true,
-      "Kyle": true,
-      "Matt": true,
-      "Nick": true,
       "Riley": true,
-      "Ryan": true,
+      "Brad": true,
+      "Adam": true,
+      "Caleb": true,
+      "Gabe": true,
+      "Sam": true,
+      "Niraj": true,
+      "Devin": true,
+      "Scrip": true,
+      "Jacques": true,
+      "Chris": true,
       "Tyler": true,
-      "Zach": true
+      "Connor": true
     },
     "teams": {
       "TeamA": [],

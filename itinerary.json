@@ -1,9 +1,47 @@
 {
   "itinerary": [
     {
+      "day": "Thursday",
+      "date": "June 12, 2026",
+      "items": [
+        "4:00 PM - Arrival & Check-in",
+        "6:00 PM - Welcome Dinner",
+        "8:00 PM - Team Draft"
+      ]
+    },
+    {
       "day": "Friday",
-      "date": "June 13",
-      "items": ["4:00 PM - Arrival", "6:00 PM - Welcome Dinner"]
+      "date": "June 13, 2026",
+      "items": [
+        "8:00 AM - Breakfast",
+        "10:00 AM - Round 1 - Scramble Format",
+        "2:00 PM - Lunch",
+        "4:00 PM - Pool & Relaxation",
+        "7:00 PM - Dinner",
+        "9:00 PM - Games Night"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "June 14, 2026",
+      "items": [
+        "8:00 AM - Breakfast",
+        "9:30 AM - Round 2 - Best Ball Format",
+        "2:00 PM - Lunch",
+        "4:00 PM - Skills Challenge",
+        "6:00 PM - Bachelor Cup Dinner",
+        "8:00 PM - Awards Ceremony"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "date": "June 15, 2026",
+      "items": [
+        "8:00 AM - Breakfast",
+        "10:00 AM - Final Round - Match Play",
+        "2:00 PM - Closing Lunch",
+        "4:00 PM - Departure"
+      ]
     }
   ]
 }

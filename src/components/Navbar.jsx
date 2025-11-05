@@ -13,17 +13,17 @@ export default function Navbar({ route, user }) {
   ]
 
   return (
-    <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-md 
-border-b border-green-800/30">
+    <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-md 
+border-b border-secondary/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <Trophy className="w-8 h-8 text-yellow-500" />
+            <Trophy className="w-8 h-8 text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-white 
+              <h1 className="text-2xl font-bold text-gray-900 
 tracking-tight">BACHELOR CUP 2026</h1>
-              <p className="text-xs text-green-400">The Ultimate 
+              <p className="text-xs text-secondary-light">The Ultimate 
 Competition</p>
             </div>
           </div>
@@ -37,8 +37,8 @@ Competition</p>
                   className={`text-sm font-semibold tracking-wide 
 transition-all duration-200 ${
                     route === link.href.replace('#', '')
-                      ? 'text-yellow-500 border-b-2 border-yellow-500'
-                      : 'text-gray-300 hover:text-white'
+                      ? 'text-primary border-b-2 border-primary'
+                      : 'text-gray-700 hover:text-white'
                   }`}
                 >
                   {link.label}
@@ -50,13 +50,13 @@ transition-all duration-200 ${
           {/* User Status */}
           <div className="hidden md:block">
             {user ? (
-              <span className="text-sm text-gray-300">
-                <span className="text-yellow-500">●</span> 
+              <span className="text-sm text-gray-700">
+                <span className="text-primary">●</span> 
 {user.email.split('@')[0]}
               </span>
             ) : (
-              <a href="#login" className="text-sm text-gray-300 
-hover:text-yellow-500 transition-colors">
+              <a href="#login" className="text-sm text-gray-700 
+hover:text-primary transition-colors">
                 Captain Login
               </a>
             )}
@@ -65,7 +65,7 @@ hover:text-yellow-500 transition-colors">
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-white"
+            className="md:hidden text-gray-900"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu 
 className="w-6 h-6" />}
@@ -75,8 +75,8 @@ className="w-6 h-6" />}
 
       {/* Mobile Nav */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-black/95 border-t 
-border-green-800/30">
+        <div className="md:hidden bg-white/98 border-t 
+border-secondary/30">
           {links.map(link => (
             <a
               key={link.href}
@@ -84,20 +84,20 @@ border-green-800/30">
               onClick={() => setMobileMenuOpen(false)}
               className={`block px-6 py-4 text-sm font-semibold ${
                 route === link.href.replace('#', '')
-                  ? 'text-yellow-500 bg-green-900/20'
-                  : 'text-gray-300'
+                  ? 'text-primary bg-secondary-dark/20'
+                  : 'text-gray-700'
               }`}
             >
               {link.label}
             </a>
           ))}
-          <div className="px-6 py-4 border-t border-green-800/30">
+          <div className="px-6 py-4 border-t border-secondary/30">
             {user ? (
-              <span className="text-sm text-gray-300">
+              <span className="text-sm text-gray-700">
                 Logged in: {user.email}
               </span>
             ) : (
-              <a href="#login" className="text-sm text-yellow-500">
+              <a href="#login" className="text-sm text-primary">
                 Captain Login
               </a>
             )}

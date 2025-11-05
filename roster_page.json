@@ -3,34 +3,114 @@
     "1": {
       "name": "Riley",
       "nickname": "The Groom",
-      "handicap": 12,
-      "hometown": "Chicago, IL",
+      "handicap": 6,
+      "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "https://your-image-url.com/player1.jpg"
+      "image": "public/images/roster/riley.JPG"
     },
     "2": {
-      "name": "Riley",
-      "nickname": "The Groom",
-      "handicap": 12,
-      "hometown": "Chicago, IL",
+      "name": "Brad",
+      "nickname": "The Best Man",
+      "handicap": 9,
+      "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "https://your-image-url.com/player1.jpg"
+      "image": "public/images/roster/brad.PNG"
     },
     "3": {
-      "name": "Riley",
-      "nickname": "The Groom",
-      "handicap": 12,
-      "hometown": "Chicago, IL",
+      "name": "Adam",
+      "nickname": "Groomsman",
+      "handicap": 14,
+      "hometown": "Sanford, ME",
       "bio": "Your bio here...",
-      "image": "https://your-image-url.com/player1.jpg"
+      "image": "public/images/roster/adam.PNG"
     },
     "4": {
-      "name": "Riley",
-      "nickname": "The Groom",
-      "handicap": 12,
-      "hometown": "Chicago, IL",
+      "name": "Gabe",
+      "nickname": "Groomsman",
+      "handicap": "Autism",
+      "hometown": "Lewiston, ME",
       "bio": "Your bio here...",
-      "image": "https://your-image-url.com/player1.jpg"
+      "image": "public/images/roster/gabe.PNG"
+    },
+    "5": {
+      "name": "Caleb",
+      "nickname": "Groomsman",
+      "handicap": 10,
+      "hometown": "Brewer, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/caleb.PNG"
+    },
+    "6": {
+      "name": "Sam",
+      "nickname": "Groomsman",
+      "handicap": 18,
+      "hometown": "Bethel, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/sam.jpg"
+    },
+    "7": {
+      "name": "Niraj",
+      "nickname": "Groomsman",
+      "handicap": "∞",
+      "hometown": "India",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/niraj.jpg"
+    },
+    "8": {
+      "name": "Scrip",
+      "nickname": "Weekend Warrior",
+      "handicap": "12",
+      "hometown": "Bangor, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/scrip.PNG"
+    },
+    "9": {
+      "name": "Jacques",
+      "nickname": "Weekend Warrior",
+      "handicap": "Liberals",
+      "hometown": "Hermon, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/jacques.PNG"
+    },
+    "10": {
+      "name": "Chris",
+      "nickname": "Weekend Warrior",
+      "handicap": "OHOP",
+      "hometown": "Ellsworth, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/chris.PNG"
+    },
+    "11": {
+      "name": "Cassidy",
+      "nickname": "Humble Neophite",
+      "handicap": "14",
+      "hometown": "The County",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/cassidy.PNG"
+    },
+    "12": {
+      "name": "Devin",
+      "nickname": "N****r Nation Native",
+      "handicap": "All of the above - 10",
+      "hometown": "Surry, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/devin.PNG"
+    },
+    "13": {
+      "name": "Tyler",
+      "nickname": "N****r Nation Native",
+      "handicap": "10",
+      "hometown": "Ellsworth, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/niraj.PNG"
+    },
+    "14": {
+      "name": "Connor",
+      "nickname": "Fellow Neighbor",
+      "handicap": "12",
+      "hometown": "Ellsworth, ME",
+      "bio": "Your bio here...",
+      "image": "public/images/roster/connor.PNG"
     }
   }
 }

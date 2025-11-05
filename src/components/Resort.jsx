@@ -16,10 +16,10 @@ export default function Resort() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold text-white 
+          <h2 className="text-5xl md:text-6xl font-bold text-primary-light 
 mb-4">THE VENUE</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-4"></div>
-          <p className="text-gray-400 text-lg">Your home away from 
+          <div className="w-24 h-1 bg-accent mx-auto mb-4"></div>
+          <p className="text-primary text-lg">Your home away from 
 home</p>
         </div>
 
@@ -36,21 +36,21 @@ group-hover:scale-110 transition-transform duration-700"
               />
             ) : (
               <div className="w-full h-full bg-gradient-to-br 
-from-green-900/60 to-gray-900 flex items-center justify-center">
-                <Home className="w-24 h-24 text-green-700" />
+from-secondary-dark/60 to-gray-900 flex items-center justify-center">
+                <Home className="w-24 h-24 text-secondary" />
               </div>
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black 
-via-black/50 to-transparent flex items-end">
+via-white/60 to-transparent flex items-end">
               <div className="p-8 w-full">
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="text-4xl font-bold text-white 
+                    <h3 className="text-4xl font-bold text-gray-900 
 mb-2">{resort[0].title}</h3>
-                    <p className="text-yellow-500 
+                    <p className="text-primary 
 text-xl">{resort[0].desc}</p>
                   </div>
-                  <MapPin className="w-8 h-8 text-yellow-500 
+                  <MapPin className="w-8 h-8 text-primary 
 flex-shrink-0" />
                 </div>
               </div>
@@ -66,7 +66,7 @@ gap-8 mb-12">
               <div 
                 key={i} 
                 className="group relative h-80 rounded-2xl overflow-hidden 
-cursor-pointer border border-green-700/30 hover:border-yellow-500/50 
+cursor-pointer border border-secondary/30 hover:border-primary/50 
 transition-all duration-300"
               >
                 {r.img ? (
@@ -78,17 +78,17 @@ group-hover:scale-110 transition-transform duration-700"
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br 
-from-green-900/40 to-gray-900/60 flex items-center justify-center">
-                    <Home className="w-16 h-16 text-green-700" />
+from-secondary-dark/40 to-gray-900/60 flex items-center justify-center">
+                    <Home className="w-16 h-16 text-secondary" />
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t 
-from-black via-black/60 to-transparent flex flex-col justify-end p-6">
-                  <h4 className="text-2xl font-bold text-white mb-2 
-group-hover:text-yellow-500 transition-colors">
+from-black via-white/70 to-transparent flex flex-col justify-end p-6">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-2 
+group-hover:text-primary transition-colors">
                     {r.title}
                   </h4>
-                  <p className="text-gray-300 group-hover:text-white 
+                  <p className="text-gray-700 group-hover:text-gray-900 
 transition-colors">
                     {r.desc}
                   </p>
@@ -101,66 +101,66 @@ transition-colors">
         {/* Amenities & Info Cards */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* Accommodations */}
-          <div className="bg-gradient-to-br from-green-900/40 to-black/60 
-backdrop-blur-md rounded-2xl border border-green-700/30 p-8">
-            <h3 className="text-3xl font-bold text-white mb-6 flex 
+          <div className="bg-gradient-to-br from-secondary-dark/40 to-white/80 
+backdrop-blur-md rounded-2xl border border-secondary/30 p-8">
+            <h3 className="text-3xl font-bold text-gray-900 mb-6 flex 
 items-center">
-              <Home className="w-8 h-8 text-yellow-500 mr-3" />
+              <Home className="w-8 h-8 text-primary mr-3" />
               Accommodations
             </h3>
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Shared villa accommodations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Private bedrooms with ensuite baths</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Common areas for group gatherings</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Full kitchen and outdoor patio</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Pool and hot tub access</span>
               </li>
             </ul>
           </div>
 
           {/* Check-in Info */}
-          <div className="bg-gradient-to-br from-green-900/40 to-black/60 
-backdrop-blur-md rounded-2xl border border-green-700/30 p-8">
-            <h3 className="text-3xl font-bold text-white mb-6 flex 
+          <div className="bg-gradient-to-br from-secondary-dark/40 to-white/80 
+backdrop-blur-md rounded-2xl border border-secondary/30 p-8">
+            <h3 className="text-3xl font-bold text-gray-900 mb-6 flex 
 items-center">
-              <MapPin className="w-8 h-8 text-yellow-500 mr-3" />
+              <MapPin className="w-8 h-8 text-primary mr-3" />
               Check-in Details
             </h3>
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
-                <span><strong className="text-white">Check-in:</strong> 
+                <span className="text-primary mr-3">•</span>
+                <span><strong className="text-gray-900">Check-in:</strong> 
 Friday 4:00 PM</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
-                <span><strong className="text-white">Check-out:</strong> 
+                <span className="text-primary mr-3">•</span>
+                <span><strong className="text-gray-900">Check-out:</strong> 
 Sunday 11:00 AM</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Parking available on-site</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>Golf course shuttle service</span>
               </li>
               <li className="flex items-start">
-                <span className="text-yellow-500 mr-3">•</span>
+                <span className="text-primary mr-3">•</span>
                 <span>24/7 concierge assistance</span>
               </li>
             </ul>
@@ -171,7 +171,7 @@ Sunday 11:00 AM</span>
         {resort.length === 0 && (
           <div className="text-center py-20">
             <Home className="w-16 h-16 text-gray-600 mx-auto mb-4" />
-            <p className="text-gray-400 text-lg">Loading resort 
+            <p className="text-gray-600 text-lg">Loading resort 
 information...</p>
           </div>
         )}
