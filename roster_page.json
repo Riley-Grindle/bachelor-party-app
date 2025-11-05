@@ -6,7 +6,7 @@
       "handicap": 6,
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/riley.JPG"
+      "image": "images/roster/riley.JPG"
     },
     "2": {
       "name": "Brad",
@@ -14,7 +14,7 @@
       "handicap": 9,
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/brad.PNG"
+      "image": "images/roster/brad.PNG"
     },
     "3": {
       "name": "Adam",
@@ -22,7 +22,7 @@
       "handicap": 14,
       "hometown": "Sanford, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/adam.PNG"
+      "image": "images/roster/adam.PNG"
     },
     "4": {
       "name": "Gabe",
@@ -30,7 +30,7 @@
       "handicap": "Autism",
       "hometown": "Lewiston, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/gabe.PNG"
+      "image": "images/roster/gabe.PNG"
     },
     "5": {
       "name": "Caleb",
@@ -38,7 +38,7 @@
       "handicap": 10,
       "hometown": "Brewer, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/caleb.PNG"
+      "image": "images/roster/caleb.PNG"
     },
     "6": {
       "name": "Sam",
@@ -46,7 +46,7 @@
       "handicap": 18,
       "hometown": "Bethel, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/sam.jpg"
+      "image": "images/roster/sam.jpg"
     },
     "7": {
       "name": "Niraj",
@@ -54,7 +54,7 @@
       "handicap": "∞",
       "hometown": "India",
       "bio": "Your bio here...",
-      "image": "public/images/roster/niraj.jpg"
+      "image": "images/roster/niraj.jpg"
     },
     "8": {
       "name": "Scrip",
@@ -62,7 +62,7 @@
       "handicap": "12",
       "hometown": "Bangor, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/scrip.PNG"
+      "image": "images/roster/scrip.PNG"
     },
     "9": {
       "name": "Jacques",
@@ -70,7 +70,7 @@
       "handicap": "Liberals",
       "hometown": "Hermon, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/jacques.PNG"
+      "image": "images/roster/jacques.PNG"
     },
     "10": {
       "name": "Chris",
@@ -78,7 +78,7 @@
       "handicap": "OHOP",
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/chris.PNG"
+      "image": "images/roster/chris.PNG"
     },
     "11": {
       "name": "Cassidy",
@@ -86,7 +86,7 @@
       "handicap": "14",
       "hometown": "The County",
       "bio": "Your bio here...",
-      "image": "public/images/roster/cassidy.PNG"
+      "image": "images/roster/cassidy.PNG"
     },
     "12": {
       "name": "Devin",
@@ -94,7 +94,7 @@
       "handicap": "All of the above - 10",
       "hometown": "Surry, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/devin.PNG"
+      "image": "images/roster/devin.PNG"
     },
     "13": {
       "name": "Tyler",
@@ -102,7 +102,7 @@
       "handicap": "10",
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/niraj.PNG"
+      "image": "images/roster/niraj.PNG"
     },
     "14": {
       "name": "Connor",
@@ -110,7 +110,7 @@
       "handicap": "12",
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
-      "image": "public/images/roster/connor.PNG"
+      "image": "images/roster/connor.PNG"
     }
   }
 }
