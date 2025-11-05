@@ -4,22 +4,16 @@ import { Trophy, Calendar, MapPin } from 'lucide-react'
 export default function Landing() {
   return (
     <div className="relative w-full min-h-screen flex flex-col justify-center items-center text-center text-gray-900 pt-20">
-      {/* YouTube Video Background - Hidden on mobile, shows on desktop */}
-      <div className="hidden md:block absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
+      {/* Vimeo Video Background */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
         <iframe
           className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2"
-          
-src="https://www.youtube.com/embed/QO4wH1t349E?start=125&end=185&autoplay=1&mute=1&loop=1&playlist=QO4wH1t349E&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+          src="https://player.vimeo.com/video/1007070452?autoplay=1&loop=1&muted=1&background=1&controls=0&title=0&byline=0&portrait=0"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
           title="Background video"
         ></iframe>
-      </div>
-
-      {/* Static Image Background - Shows on mobile */}
-      <div className="md:hidden absolute inset-0 w-full h-full bg-cover bg-center" 
-           style={{backgroundImage: "url('/images/golf-background.jpg')"}}>
       </div>
       
       {/* Dark Overlay for better text visibility */}
