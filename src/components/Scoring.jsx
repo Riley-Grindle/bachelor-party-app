@@ -11,7 +11,7 @@ export default function Matchups() {
   const rounds = [
     { id: "puttshack", name: "Puttshack" },
     { id: "graniteLinks", name: "Granite Links" },
-    { id: "tbd", name: "TBD" }
+    { id: "georgeWright", name: "George Wright GC" }
   ];
 
   useEffect(() => {
