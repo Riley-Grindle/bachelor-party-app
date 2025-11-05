@@ -22,7 +22,7 @@ export default function Landing() {
       {/* Hero Content */}
       <div className="z-10 px-4 space-y-8">
         <div className="space-y-4">
-          <h1 className="text-7xl md:text-9xl font-bold tracking-tight drop-shadow-2xl">
+          <h1 className="text-7xl md:text-9xl text-accent-dark font-bold tracking-tight drop-shadow-2xl">
             BACHELOR CUP
           </h1>
           <p className="text-3xl md:text-5xl text-primary font-light drop-shadow-lg">
@@ -31,27 +31,28 @@ export default function Landing() {
         </div>
 
         <p className="text-xl md:text-2xl text-gray-800 max-w-2xl mx-auto font-light drop-shadow-lg">
-          Where legends are made and friendships are forged on the fairways
+          A Bad Weekend to be a Beer
         </p>
 
         {/* Event Details Cards */}
         <div className="flex flex-wrap justify-center gap-4 pt-8">
           <div className="bg-white/90 backdrop-blur-md px-8 py-4 rounded-xl border border-secondary/50 hover:border-primary/50 transition-all duration-300">
             <Calendar className="w-6 h-6 text-primary mx-auto mb-2" />
-            <p className="text-primary font-semibold text-sm">JUNE 13-15</p>
+            <p className="text-primary font-semibold text-sm">SEPTEMBER 11-13</p>
             <p className="text-gray-700 text-xs">2026</p>
           </div>
           
           <div className="bg-white/90 backdrop-blur-md px-8 py-4 rounded-xl border border-secondary/50 hover:border-primary/50 transition-all duration-300">
             <MapPin className="w-6 h-6 text-primary mx-auto mb-2" />
-            <p className="text-primary font-semibold text-sm">PINEHURST</p>
-            <p className="text-gray-700 text-xs">North Carolina</p>
+            <p className="text-primary font-semibold text-sm">Boston Area</p>
+            <p className="text-gray-700 text-xs">Massachusetts</p>
           </div>
           
           <div className="bg-white/90 backdrop-blur-md px-8 py-4 rounded-xl border border-secondary/50 hover:border-primary/50 transition-all duration-300">
             <Trophy className="w-6 h-6 text-primary mx-auto mb-2" />
-            <p className="text-primary font-semibold text-sm">12 PLAYERS</p>
+            <p className="text-primary font-semibold text-sm">16 PLAYERS</p>
             <p className="text-gray-700 text-xs">Two Teams</p>
+            <p className="text-gray-700 text-xs">3 Rounds</p>
           </div>
         </div>
 

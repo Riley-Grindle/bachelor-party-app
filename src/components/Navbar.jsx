@@ -21,9 +21,8 @@ border-b border-secondary/30">
           <div className="flex items-center space-x-3">
             <Trophy className="w-8 h-8 text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 
-tracking-tight">BACHELOR CUP 2026</h1>
-              <p className="text-xs text-secondary-light">The Ultimate 
+              <h1 className="text-2xl font-bold text-accent-dark tracking-tight">BACHELOR CUP 2026</h1>
+              <p className="text-xs text-primary-dark">The Ultimate 
 Competition</p>
             </div>
           </div>
