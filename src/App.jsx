@@ -5,7 +5,7 @@ import Roster from './components/Roster'
 import Resort from './components/Resort'
 import Itinerary from './components/Itinerary'
 import Draft from './components/Draft'
-import Login from './components/Login'
+import Scoring from './components/Scoring'
 import { auth } from './firebase'
 import { onAuthStateChanged } from 'firebase/auth'
 
@@ -37,7 +37,7 @@ handles its own */}
         {route === 'resort' && <Resort />}
         {route === 'itinerary' && <Itinerary />}
         {route === 'draft' && <Draft />}
-        {route === 'login' && <Login />}
+        {route === 'scoring' && <Scoring />}
       </main>
 
       {/* Footer */}

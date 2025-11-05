@@ -9,7 +9,8 @@ export default function Navbar({ route, user }) {
     { href: '#roster', label: 'Roster' },
     { href: '#resort', label: 'Resort' },
     { href: '#itinerary', label: 'Itinerary' },
-    { href: '#draft', label: 'Draft' }
+    { href: '#draft', label: 'Draft' },
+    { href: '#scoring', label: 'Scoring'}
   ]
 
   return (
@@ -46,21 +47,6 @@ transition-all duration-200 ${
             ))}
           </ul>
 
-          {/* User Status */}
-          <div className="hidden md:block">
-            {user ? (
-              <span className="text-sm text-gray-700">
-                <span className="text-primary">●</span> 
-{user.email.split('@')[0]}
-              </span>
-            ) : (
-              <a href="#login" className="text-sm text-gray-700 
-hover:text-primary transition-colors">
-                Captain Login
-              </a>
-            )}
-          </div>
-
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -90,17 +76,6 @@ border-secondary/30">
               {link.label}
             </a>
           ))}
-          <div className="px-6 py-4 border-t border-secondary/30">
-            {user ? (
-              <span className="text-sm text-gray-700">
-                Logged in: {user.email}
-              </span>
-            ) : (
-              <a href="#login" className="text-sm text-primary">
-                Captain Login
-              </a>
-            )}
-          </div>
         </div>
       )}
     </nav>
