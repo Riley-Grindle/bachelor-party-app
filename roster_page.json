@@ -106,11 +106,27 @@
     },
     "14": {
       "name": "Connor",
-      "nickname": "Fellow Neighbor",
+      "nickname": "Neighbor",
       "handicap": "12",
       "hometown": "Ellsworth, ME",
       "bio": "Your bio here...",
       "image": "images/roster/connor.PNG"
+    },
+    "15": {
+      "name": "Jackson", 
+      "nickname": "N****r Nation Native",
+      "handicap": "18",
+      "hometown": "Ellsworth, ME",
+      "bio": "Your bio here...",
+      "image": "images/roster/jackson.PNG" 
+    },
+    "16": {
+      "name": "Smitty",
+      "nickname": "N****r Nation Native",
+      "handicap": "13",
+      "hometown": "Ellsworth, ME",
+      "bio": "Your bio here...",
+      "image": "images/roster/nathan.PNG"
     }
   }
 }
