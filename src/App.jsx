@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import Roster from './components/Roster'
-import Resort from './components/Resort'
+import Stay from './components/Stay'
 import Itinerary from './components/Itinerary'
 import Draft from './components/Draft'
 import Scoring from './components/Scoring'
@@ -34,7 +34,7 @@ handles its own */}
       <main className="flex-1">
         {route === 'home' && <Landing />}
         {route === 'roster' && <Roster />}
-        {route === 'resort' && <Resort />}
+        {route === 'stay' && <Stay />}
         {route === 'itinerary' && <Itinerary />}
         {route === 'draft' && <Draft />}
         {route === 'scoring' && <Scoring />}

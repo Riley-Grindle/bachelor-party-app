@@ -7,7 +7,7 @@ export default function Navbar({ route, user }) {
   const links = [
     { href: '#home', label: 'Home' },
     { href: '#roster', label: 'Roster' },
-    { href: '#resort', label: 'Resort' },
+    { href: '#stay', label: 'Stay' },
     { href: '#itinerary', label: 'Itinerary' },
     { href: '#draft', label: 'Draft' },
     { href: '#scoring', label: 'Scoring'}
